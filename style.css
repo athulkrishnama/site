@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 *{
     box-sizing: border-box;
@@ -18,7 +19,8 @@ body{
 }
 .logo h1{
     color: white;
-    
+    font-size: 3em;
+    font-weight: 900;
     
 }
 .navbar ul{
@@ -34,16 +36,19 @@ body{
     list-style: none;
     text-align: center;
     width: 100%;
-
+    cursor: pointer;
 }
 .navbar li a{
     text-decoration: none;
     color: white;
     padding: 1rem;
     display: block;
+    font-weight: bold;
+
 }
 .navbar li a:hover{
     color: rgb(211, 202, 202);
+    cursor: pointer;
 }
 .togglebut{
     position: absolute;
@@ -85,12 +90,12 @@ body{
 
 
 .texts{
-    position: absolute;
+    
     background-color: transparent;
     
 }
 .hello{
-  font-size: 19vw;
+  font-size: 17vw;
      font-weight: 900;
     padding: 0px;
     margin: 0px;
@@ -100,4 +105,41 @@ body{
     background-size: 100% 100%;
     color: transparent;
     -webkit-background-clip:text;
+}
+
+
+
+
+
+
+
+.sec-head{
+    background: teal;
+    border-radius: 1em;
+    box-shadow: 0px 5px 15px gray ; 
+
+}
+
+.sec-head h1{
+    color: white;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+.pic{
+    border-radius: 50%;
+}
+
+.details li{
+    list-style: none;
+    color:rgb(85, 81, 81);
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1em;
 }
